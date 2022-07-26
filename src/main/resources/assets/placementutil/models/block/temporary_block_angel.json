@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "placementutil:block/temporary_block_angel"
+  },
+  "render_type": "minecraft:cutout"
+}
