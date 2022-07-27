@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " TT",
+    " DT",
+    "W  "
+  ],
+  "key": {
+    "T": {
+      "item": "placementutil:temporary_block_angel"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "W": {
+      "item": "placementutil:temporary_wand"
+    }
+  },
+  "result": {
+    "item": "placementutil:angel_wand"
+  }
+}

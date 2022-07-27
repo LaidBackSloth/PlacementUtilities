@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " TN",
+    " CT",
+    "S  "
+  ],
+  "key": {
+    "T": {
+      "item": "placementutil:temporary_block_returning"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "N": {
+      "item": "minecraft:tnt"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "placementutil:temporary_wand"
+  }
+}

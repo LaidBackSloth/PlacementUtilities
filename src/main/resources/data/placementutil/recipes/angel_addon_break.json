@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DPD",
+    "ATS",
+    "DHD"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "A": {
+      "item": "minecraft:golden_axe"
+    },
+    "S": {
+      "item": "minecraft:golden_shovel"
+    },
+    "H": {
+      "item": "minecraft:golden_hoe"
+    },
+    "T": {
+      "item": "placementutil:temporary_block_angel"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "placementutil:angel_addon_break"
+  }
+}

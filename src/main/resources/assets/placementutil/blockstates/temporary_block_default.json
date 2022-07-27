@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "placementutil:block/temporary_block_default"}
+  }
+}
