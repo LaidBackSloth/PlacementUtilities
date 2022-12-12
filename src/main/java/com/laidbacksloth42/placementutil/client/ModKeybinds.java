@@ -10,17 +10,10 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = PlacementUtil.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ModKeybinds {
-    public static KeyMapping angelWandRotate;
-    public static KeyMapping angelWandReachUp;
-    public static KeyMapping angelWandReachDown;
-    public static KeyMapping angelWandReachScroll;
-
-    public static void init() {
-        angelWandRotate = registerKey("angel_wand_rotate", InputConstants.KEY_R);
-        angelWandReachUp = registerKey("angel_wand_reach_up", InputConstants.KEY_V);
-        angelWandReachDown = registerKey("angel_wand_reach_down", InputConstants.KEY_X);
-        angelWandReachScroll = registerKey("angel_wand_reach_scroll", InputConstants.KEY_LCONTROL);
-    }
+    public static KeyMapping angelWandRotate = registerKey("angel_wand_rotate", InputConstants.KEY_R);
+    public static KeyMapping angelWandReachUp = registerKey("angel_wand_reach_up", InputConstants.KEY_V);
+    public static KeyMapping angelWandReachDown = registerKey("angel_wand_reach_down", InputConstants.KEY_X);
+    public static KeyMapping angelWandReachScroll = registerKey("angel_wand_reach_scroll", InputConstants.KEY_LCONTROL);
 
     private static KeyMapping registerKey(String name, int keycode) {
         return new KeyMapping("key." + PlacementUtil.MOD_ID + "." + name, keycode,
